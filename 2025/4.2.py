@@ -4,7 +4,7 @@ import math
 finalSum = 0
 entriesRemoved = False
 
-with open("example.txt", "r") as f:
+with open("input.txt", "r") as f:
     entries = [x.strip() for x in f.readlines()]
 
 def checkAdjacent(entries, y, index) -> bool:
